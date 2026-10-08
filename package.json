@@ -4,6 +4,7 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
+    "build": "node build.cjs",
     "dev": "node server.cjs",
     "start": "node server.cjs"
   }
