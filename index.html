@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JASHN — the memories we made together." />
+    <title>JASHN — The Memories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="night" id="top">
+      <div class="backdrop" aria-hidden="true"></div>
+
+      <nav class="nav" aria-label="JASHN memories">
+        <a class="brand" href="#top" aria-label="JASHN home">
+          <span class="brand__word">JASHN</span>
+          <span class="brand__sub">CSB FRESHERS '26</span>
+        </a>
+        <span class="nav__note">A LITTLE LOOK BACK</span>
+      </nav>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">THE DAY WE BECAME A LITTLE CLOSER</p>
+        <h1 id="hero-title">JASHN</h1>
+        <p class="hero__copy">This is where the memories stayed.</p>
+        <a class="scroll-cue" href="#memories">KEEP SCROLLING <span>↓</span></a>
+      </section>
+
+      <section class="memories" id="memories" aria-labelledby="memories-title">
+        <div class="memory-pin" id="memory-pin">
+          <div class="memory-pin__inner">
+            <div class="section-label">A FEW MOMENTS WE KEPT</div>
+            <div class="heading-row">
+              <h2 id="memories-title">STILL<br /><em>WITH US.</em></h2>
+              <p>Keep scrolling down.<br />The memories will follow.</p>
+            </div>
+            <div class="rail-viewport" id="rail-viewport" tabindex="0" role="region" aria-label="JASHN memory gallery">
+              <div class="rail" id="rail"></div>
+            </div>
+            <div class="rail-hint">SCROLL DOWN TO FOLLOW THE THREAD <span>→</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="group-reveal" aria-labelledby="group-title">
+        <div class="section-label">THE PHOTO AT THE END OF THE NIGHT</div>
+        <div class="group-frame">
+          <img src="public/images/freshers-2025.jpeg" alt="The whole JASHN freshers group together" loading="eager" />
+          <div class="group-frame__copy">
+            <h2 id="group-title">WE CAME IN AS A CROWD.<br /><em>WE LEFT AS US.</em></h2>
+          </div>
+        </div>
+        <p class="group-message">We arrived as faces in a room. We left with names, stories, and people we’ll carry long after the lights went out.</p>
+      </section>
+
+      <footer>
+        <div class="footer-mark">JASHN</div>
+        <p>SAME PEOPLE. STORIES WE KEEP.</p>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
